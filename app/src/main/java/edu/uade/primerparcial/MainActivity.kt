@@ -72,7 +72,7 @@ fun PokemonListScreenFinal(
             TopAppBar(
                 title = {
                     Text(
-                        text = "Pokédex",
+                        text = "Pokédex made by Gian",
                         style = MaterialTheme.typography.headlineMedium,
                         fontWeight = FontWeight.Bold
                     )

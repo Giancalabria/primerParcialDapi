@@ -13,3 +13,5 @@ data class Pokemon(
     val nameFormatted: String
         get() = name.replaceFirstChar { it.uppercase() }
 }
+
+// Movi la clase de cada Pokemon especifico aca para sacar logica del MainActivity
