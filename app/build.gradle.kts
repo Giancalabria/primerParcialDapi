@@ -5,11 +5,7 @@ plugins {
 
 android {
     namespace = "edu.uade.primerparcial"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "edu.uade.primerparcial"
@@ -55,13 +51,6 @@ dependencies {
 
     // ViewModel Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
-
-    // Retrofit
-    implementation("com.squareup.retrofit2:retrofit:2.11.0")
-    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
-
-    // OkHttp Logging
-    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
 
     // Coil (imágenes)
     implementation("io.coil-kt:coil-compose:2.7.0")
