@@ -1,4 +1,6 @@
-package edu.uade.primerparcial.data
+package edu.uade.primerparcial.data.repository
+
+import edu.uade.primerparcial.data.model.Pokemon
 
 class PokemonRepository {
     fun getPokemons(): List<Pokemon> = listOf(
@@ -257,6 +259,3 @@ class PokemonRepository {
         Pokemon(name = "celebi",        url = "https://pokeapi.co/api/v2/pokemon/251/")
     )
 }
-
-// Se creo un Repository el cual podria en un futuro conectarse con una API en vez de tener las cosas
-// hardcoded y no tendriamos que cambiar nada en el MainActivity
